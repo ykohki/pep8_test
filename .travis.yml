@@ -8,6 +8,11 @@ python:
   - "3.6"
   - "3.7"
 
+# safelist
+branches:
+  only:
+  - master
+
 install:
   - pip install flake8
     
